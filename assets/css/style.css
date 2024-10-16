@@ -24,7 +24,16 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -50,6 +59,56 @@ h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/*Services*/
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+/*Media queries*/
+
+/*Medium screens (Tablets, 768px and up)*/
+
+@media screen and (min-width: 768px) {
+    /*Makes all services cards the same height*/
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/*Large screens (Laptops, 992px and up)*/
+
+@media screen and (min-width: 992px) {
+    /*Makes all services cards the same height*/
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/*Extra Large screens (Desktops, 1200px and up)*/
+
+@media screen and (min-width: 1200px) {
+    /*Makes all services cards the same height*/
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/*XX Large screens (Desktops, 1400px and up)*/
+
+@media screen and (min-width: 1400px) {
+    /*Makes all services cards the same height*/
+    #services .card-body {
+        min-height: 195px;
+    }
 }
 
 /*Temporary CSS for grid visualisation*/
