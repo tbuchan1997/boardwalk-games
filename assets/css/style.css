@@ -58,6 +58,10 @@ h2 {
     font-family: var(--secondary-font);
 }
 
+li .btn {
+    list-style-type: none;
+}
+
 /* Services */
 
 #services .card-footer {
